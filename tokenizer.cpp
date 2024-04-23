@@ -157,7 +157,7 @@ void Lexical_Analyse(){
     }
 }
 void Output_Result(){
-    ofstream OutputResult("output.txt");
+    ofstream OutputResult("temp/token.txt");
     int count=0;
     for(auto item:tokens){
         OutputResult<<(to_string(++count)+".Type: "+StringOfTokenType[item.type]);
