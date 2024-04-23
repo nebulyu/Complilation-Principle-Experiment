@@ -1,0 +1,9 @@
+int
+char
+if
+else
+do
+while
+for
+printf
+scanf
